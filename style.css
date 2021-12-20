@@ -645,22 +645,7 @@ footer a {
     }
 
 
-    .invite-epicbot {
-    
-        border: 2px solid black;
-        background: transparent;
-        background-color: #A80c14;
-        color: black;
-        padding-top: 1px;
-        width: 250px;
-        height: 40px;
-        cursor: pointer;
-        font-size: 20px;
-        font-weight: 400;
-        border-radius: 30px;
-        /* animation: drop 1s ease; */
-        transition: 0.5s ease;
-    }
+   
 
     .custom-shape-divider-bottom-1610798309 {
         position: absolute;
@@ -857,4 +842,30 @@ footer a {
     .cover1 .stats-container .stat-boxes {
         display: flex;
     }
+
+    .invite-epicbot {
+    
+        border: 2px solid black;
+        background: transparent;
+        background-color: #A80c14;
+        color: black;
+        padding-top: 4px;
+        width: 320px;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        border-radius: 30px;
+        /* animation: drop 1s ease; */
+        transition: 0.5s ease;
+    }
+
+    .invite-epicbot .tet {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: initial;
+        font-weight: 650;
+        
+    }
+
 }
