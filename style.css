@@ -566,13 +566,34 @@ footer a {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
     }
     .wrapper {
-    width: 100%;
+        
+    
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
     }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#A80c14), to(#A80c14));
+        box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+    }
+    ::-webkit-scrollbar-track {
+        background: linear-gradient(to right, #201c29, #201c29 1px, #100e17 1px, #100e17);
+    }
+    
     body {
+        overflow-x: hidden !important;
         font-family: 'Poppins', sans-serif;
-        width:100%;
+     
     }
     .menu-btn {
         display : block;
@@ -581,7 +602,6 @@ footer a {
     }
 
     .navbar {
-    
         position: relative;
         width: 100%;
         padding: 20px 0;
@@ -600,7 +620,7 @@ footer a {
     }
 
     .presentation {
-
+     
     width: 100%;
  
    
@@ -619,6 +639,7 @@ footer a {
     }
 
     .cta {
+        
         display : block;
         padding-left: 20px;
     }
