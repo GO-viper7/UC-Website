@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100% !important;
+        overflow-x: hidden !important;
 }
 *::selection {
     color: black;
@@ -11,6 +13,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
 }
 .j {
     display: flex;
@@ -27,7 +30,7 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0px;
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
